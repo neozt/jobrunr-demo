@@ -1,0 +1,9 @@
+jobrunr:
+  background-job-server:
+    # Turn off background processing for web server
+    enabled: false
+
+  dashboard:
+    enabled: true
+    username: admin
+    password: admin

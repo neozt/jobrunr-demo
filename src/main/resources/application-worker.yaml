@@ -1,0 +1,14 @@
+spring:
+  main:
+    web-application-type: none
+
+jobrunr:
+  background-job-server:
+    enabled: true
+    name: worker
+
+  dashboard:
+    enabled: false
+
+
+

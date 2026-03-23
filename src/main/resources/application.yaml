@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jobrunnr
+
+  datasource:
+    url: jdbc:postgresql://localhost:54321/spring_db
+    username: spring_user
+    password: spring_password
+
+logging:
+  level:
+    org.jobrunr: debug
+    com.example: debug
